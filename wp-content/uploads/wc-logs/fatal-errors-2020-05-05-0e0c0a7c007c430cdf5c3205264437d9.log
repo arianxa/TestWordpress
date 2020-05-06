@@ -1,0 +1,9 @@
+2020-05-05T12:14:59+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\sitioweb\wp-content\plugins\elementor\core\base\base-object.php:40
+Stack trace:
+#0 C:\xampp\htdocs\sitioweb\wp-content\plugins\essential-addons-for-elementor-lite\includes\Template\Woocommerce\Checkout\Woo_Checkout_Helper.php(332): Elementor\Core\Base\Base_Object::get_settings()
+#1 C:\xampp\htdocs\sitioweb\wp-includes\class-wp-hook.php(287): Essential_Addons_Elementor\Elements\Woo_Checkout::checkout_order_review_template(Object(WC_Checkout))
+#2 C:\xampp\htdocs\sitioweb\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\sitioweb\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sitioweb\wp-content\plugins\essential-addons-for-elementor-lite\includes\Template\Woocommerce\Checkout\Woo_Checkout_Helper.php(487): do_action('woocommerce_bef...', Object(WC_Checkout))
+#5 C:\xampp\htdocs\sitioweb\wp-content\plugins\essential-addons-for-elementor-lite\includes\Template\Woocommerce\Check en C:\xampp\htdocs\sitioweb\wp-content\plugins\elementor\core\base\base-object.php en la línea 40
+
